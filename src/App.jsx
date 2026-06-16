@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import Home from './pages/Home/Home'
 
 function App() {
 
@@ -11,9 +12,11 @@ function App() {
 
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
+        {/* <Route path='/about' element={<About />} />/ 
+          seguinte, tem mt erro, nao vou validar tudo agora, tenta corrigir o magimo possivel ate a proxima aula, depois tu me explica ( blz)
+        */}
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
 </Routes>
 
     </>

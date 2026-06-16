@@ -1,5 +1,5 @@
 
-const URL_BASE = 'https://hp-api.onrender.com/api/characters'
+const URL_BASE = 'https://hp-api.onrender.com/api'
 
     export async function getCharacters() {
     const url = URL_BASE + '/characters'
