@@ -1,22 +1,17 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Home from './pages/Home/Home'
+import Header from './componentes/Header'
+import Home from './pages/Home'
 
 function App() {
 
 
   return (
     <>
-
+<Header/>
 <Routes>
-
-      <Routes>
         <Route path='/' element={<Home />} />
-        {/* <Route path='/about' element={<About />} />/ 
-          seguinte, tem mt erro, nao vou validar tudo agora, tenta corrigir o magimo possivel ate a proxima aula, depois tu me explica ( blz)
-        */}
-      </Routes>
-      {/* <Footer /> */}
+       
 </Routes>
 
     </>
